@@ -4,7 +4,7 @@ Domino's Pizza
 Disclaimer
 -----------
 This was part of a code-along I did with one of my favorite Youtubers TechWithTim. He is an amazing youtuber and I learned so much during this tutorial.
-This is a script utilizing Domino's API to order pizza.
+This is a script utilizing Domino's API to order pizza. The code-along took place in tutorial.py along with some minor adjustments here and there. 
 
 This is Tim's fork of https://github.com/gamagori/pizzapi
 
