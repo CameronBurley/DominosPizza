@@ -3,10 +3,10 @@ pizzapy
 
 Disclaimer
 -----------
-This is my fork of https://github.com/gamagori/pizzapi
-It's heavily modified and not well documented, but i'm going to get to that. the below example should work though.
+This was part of a code-along I did with one of my favorite Youtubers TechWithTim. He is an amazing youtuber and I learned so much during this tutorial.
+This is a script utilizing Domino's API to order pizza.
 
-sorry! was kind of in a rush this morning.
+This is Tim's fork of https://github.com/gamagori/pizzapi
 
 Setup
 -----
