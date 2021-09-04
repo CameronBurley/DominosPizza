@@ -1,7 +1,7 @@
 from pizzapy import Customer, StoreLocator, Order, ConsoleInput
 TAXRATE = 1.0725
 
-def searchMenu(menu):
+def search_menu(menu):
     print("You are now searching the menu...")
    
     item = input("Type in item to look for: ").strip().lower()
@@ -14,7 +14,7 @@ def searchMenu(menu):
     else:
         print("No Results")
 
-def addToOrder(order):
+def add_to_order(order):
     print("Please type the codes of the items you'd like to order..")
     print("Press ENTER to stop ordering.")
     while True:
@@ -44,8 +44,8 @@ menu = my_local_dominos.get_menu()
 order = Order.begin_customer_order(customer, my_local_dominos)
 
 while True:
-    searchMenu(menu)
-    addToOrder(order)
+    search_menu(menu)
+    add_to_order(order)
     answer = input("Would you like to add more items (y/n? ")
     if answer.lower() in ["no", "n"]:
         break
